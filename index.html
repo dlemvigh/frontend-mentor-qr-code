@@ -17,7 +17,7 @@
     :root {
       --color-slate-300: hsl(212, 45%, 89%);
       --color-slate-500: hsl(216, 15%, 48%);
-      --color-slate-900: hsl(218, 44%, 44%);
+      --color-slate-900: hsl(218, 44%, 22%);
       --color-white: #FFF;
 
       --space-500: 40px;
@@ -53,12 +53,12 @@
       text-align: center;
     }
 
-    .qr-code {
+    .card-qr-code {
       border-radius: 10px;
       margin-bottom: 24px;
     }
 
-    .title {
+    .card-title {
       color: var(--color-slate-900);
       font-family: 'Outfit';
       font-weight: 700;
@@ -68,13 +68,14 @@
       margin-bottom: 16px;
     }
 
-    .text {
+    .card-text {
       color: var(--color-slate-500);
       font-family: 'Outfit';
       font-weight: 400;
       font-size: 15px;
       line-height: 140%;
       letter-spacing: 0.2px;
+      margin: 0;
     }
 
   </style>
@@ -83,9 +84,9 @@
 
   <main>
     <div class="card">
-      <img class="qr-code" src="./images/image-qr-code.png">
-      <strong class="title">Improve your front-end skills by building projects</strong>      
-      <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      <img class="card-qr-code" src="./images/image-qr-code.png">
+      <strong class="card-title">Improve your front-end skills by building projects</strong>      
+      <p class="card-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>  
   </main>
 
